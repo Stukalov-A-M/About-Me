@@ -4,5 +4,5 @@
     <dimen name="small_padding">8dp</dimen>
     <dimen name="layout_margin">16dp</dimen>
     <dimen name="padding">16dp</dimen>
-    <item name="line_spacing" type="dimen" format="float">1.4</item>
+    <item name="line_spacing" type="dimen" format="float">1.6</item>
 </resources>
