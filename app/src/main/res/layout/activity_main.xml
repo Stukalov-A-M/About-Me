@@ -28,13 +28,29 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/textView3"
-            style="@style/bio_style"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingStart="@dimen/padding"
-            android:paddingEnd="@dimen/padding"
-            android:text="@string/bio" />
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/myPhoto"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/myPhoto"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/me" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/bio_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/padding"
+                android:paddingEnd="@dimen/padding"
+                android:text="@string/bio" />
+        </LinearLayout>
     </ScrollView>
+
 </LinearLayout>
